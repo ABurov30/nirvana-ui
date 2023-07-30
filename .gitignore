@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution files
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# Log files
+logs/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac files
+.DS_Store
+
+# Compiled output
+*.min.js
+*.min.css
+
+# Other
+Thumbs.db
