@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack",
 		"publish": "webpack && npm version patch && npm publish",
-		"storybook": "storybook dev -p 6006 --debug-webpack",
+		"sb": "storybook dev -p 6006 --debug-webpack",
 		"build-storybook": "storybook build"
 	},
 	"keywords": [],

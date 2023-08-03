@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: transparent;
 	min-height: 100vh;
 	min-width: 100vw;
 }
@@ -36,27 +37,27 @@
 }
 
 .loader span:nth-child(2) {
-	filter: blur(15px);
+	filter: blur(10px);
 }
 
 .loader span:nth-child(3) {
-	filter: blur(25px);
+	filter: blur(20px);
 }
 
 .loader span:nth-child(4) {
-	filter: blur(50px);
+	filter: blur(40px);
 }
 
 .loader span:nth-child(5) {
-	filter: blur(100px);
+	filter: blur(80px);
 }
 
 .loader span:nth-child(6) {
-	filter: blur(200px);
+	filter: blur(160px);
 }
 
 .loader span:nth-child(7) {
-	filter: blur(400px);
+	filter: blur(320px);
 }
 
 .loader:after {
