@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "jsx": "react",
-    "strict": true,
-    "esModuleInterop": true,
-    "lib": ["es2015", "dom"],
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "declaration": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist", "./src/stories"]
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"jsx": "react",
+		"strict": true,
+		"esModuleInterop": true,
+		"lib": ["es2015", "dom"],
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"declaration": true
+	},
+	"include": ["src", "src/index.ts"],
+	"exclude": ["node_modules", "dist", "./src/stories"]
 }

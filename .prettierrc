@@ -1,0 +1,17 @@
+{
+  "arrowParens": "avoid",
+  "useTabs": true,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "semi": false,
+  "trailingComma": "none",
+  "importOrder": [
+    "builtin",
+    "external",
+    "internal",
+    ["parent", "sibling"],
+    "index"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
