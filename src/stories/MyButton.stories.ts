@@ -9,4 +9,8 @@ const meta: Meta<typeof MyButton> = {
 export default meta
 type Story = StoryObj<typeof MyButton>
 
-export const Primary: Story = {}
+export const Primary: Story = {
+	args: {
+		srcImg: '/heart.png'
+	}
+}
