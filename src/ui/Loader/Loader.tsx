@@ -1,5 +1,5 @@
 //@ts-ignore
-import styles from './style.module.scss'
+import styles from './Loader.module.scss'
 import React from 'react'
 
 export default function Loader(): JSX.Element {
