@@ -1,0 +1,15 @@
+@import '../../constants/colors.scss';
+
+.Navbar {
+	width: 30px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+    background-color: $primary-white;
+}
+
+.Navbar:hover {
+	width: 120px;
+}
