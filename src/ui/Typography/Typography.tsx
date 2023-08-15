@@ -22,12 +22,14 @@ export default function Typography({
 		}
 	})()
 
+	const size = fontSize+'px'
+
 	return (
 		<span
 			className={style.typography}
 			style={{
 				fontWeight,
-				fontSize,
+				fontSize: size,
 				color
 			}}
 		>

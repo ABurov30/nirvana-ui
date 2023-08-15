@@ -14,7 +14,7 @@ export const Primary: Story = {
 	args: {
 		children: 'Home',
 		srcImg: '/home.png',
-		srcActiveImg: '/homActive.png'
+		srcActiveImg: '/homeActive.png'
 	}
 }
 
