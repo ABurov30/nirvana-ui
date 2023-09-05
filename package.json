@@ -1,6 +1,6 @@
 {
 	"name": "radio-app-uikit",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
@@ -10,7 +10,6 @@
 		"pb": "npm run build:img && webpack && npm version patch && npm publish",
 		"sb": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
-		
 	},
 	"keywords": [],
 	"author": "AndreyBurov",
