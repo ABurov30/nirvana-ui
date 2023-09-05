@@ -9,7 +9,8 @@ export default function BlockButton({ text, srcImg }: IBlockButtonProps) {
 	return (
 		<div className={styles.BlockButton}>
 			{srcImg ? <img src={srcImg} width={25} /> : null}
-			<img src="/icons/mix.png" width={25} alt='что-то'/>
+			<img src="/static/icons/mix.png" width={25} alt="что-то" />
+
 			<Typography text={text} color="#f3f3f3" />
 		</div>
 	)

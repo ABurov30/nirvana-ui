@@ -12,13 +12,13 @@ type Story = StoryObj<typeof BlockButton>
 export const PlayAll: Story = {
 	args: {
 		text: 'Play All',
-		srcImg: '/icons/play.png'
+		srcImg: '/static/icons/play.png'
 	}
 }
 
 export const Mix: Story = {
 	args: {
 		text: 'Mix',
-		srcImg: '/icons/mix.png'
+		srcImg: '/static/icons/mix.png'
 	}
 }

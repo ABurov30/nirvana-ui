@@ -6,9 +6,11 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack",
-		"pb": "webpack && npm version patch && npm publish",
+		"build:img": "copyfiles -f public/icons/*.* dist/static/icons/",
+		"pb": "npm run build:img && webpack && npm version patch && npm publish",
 		"sb": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
+		
 	},
 	"keywords": [],
 	"author": "AndreyBurov",
@@ -56,5 +58,8 @@
 	},
 	"files": [
 		"dist"
-	]
+	],
+	"dependencies": {
+		"copyfiles": "^2.4.1"
+	}
 }
