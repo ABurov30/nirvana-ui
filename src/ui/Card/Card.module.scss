@@ -1,0 +1,19 @@
+
+
+img{
+    border: solid transparent 1px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+

@@ -11,6 +11,6 @@ type Story = StoryObj<typeof MyButton>
 
 export const Primary: Story = {
 	args: {
-		srcImg: '/heart.png'
+		srcImg: '/icons/heart.png'
 	}
 }

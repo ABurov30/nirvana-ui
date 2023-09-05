@@ -11,66 +11,66 @@ type Story = StoryObj<typeof RoundButton>
 
 export const Like: Story = {
 	args: {
-		srcImg: '/heart.png'
+		srcImg: '/icons/heart.png'
 	}
 }
 
 export const Share: Story = {
 	args: {
-		srcImg: '/Share.png'
+		srcImg: '/icons/Share.png'
 	}
 }
 
 export const LeftArrow: Story = {
 	args: {
-		srcImg: '/leftArrow.png'
+		srcImg: '/icons/leftArrow.png'
 	}
 }
 
 export const DownArrow: Story = {
 	args: {
-		srcImg: '/downArrow.png',
+		srcImg: '/icons/downArrow.png',
 		color: 'transparent'
 	}
 }
 
 export const RightArrow: Story = {
 	args: {
-		srcImg: '/RightArrow.png'
+		srcImg: '/icons/RightArrow.png'
 	}
 }
 
 export const PlayButton: Story = {
 	args: {
-		srcImg: '/play.png',
+		srcImg: '/icons/play.png',
 		color: '#F3F3F3'
 	}
 }
 
 export const ReminderButton: Story = {
 	args: {
-		srcImg: '/remind.png',
+		srcImg: '/icons/remind.png',
 		color: 'transparent'
 	}
 }
 
 export const RepeatButton: Story = {
 	args: {
-		srcImg: '/repeat.png',
+		srcImg: '/icons/repeat.png',
 		color: 'transparent'
 	}
 }
 
 export const MixButton: Story = {
 	args: {
-		srcImg: '/mix.png',
+		srcImg: '/icons/mix.png',
 		color: 'transparent'
 	}
 }
 
 export const VolumeButton: Story = {
 	args: {
-		srcImg: '/volume.png',
+		srcImg: '/icons/volume.png',
 		color: 'transparent'
 	}
 }

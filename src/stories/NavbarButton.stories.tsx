@@ -13,16 +13,16 @@ type Story = StoryObj<typeof NavbarButton>
 export const Primary: Story = {
 	args: {
 		children: 'Home',
-		srcImg: '/home.png',
-		srcActiveImg: '/homeActive.png'
+		srcImg: '/icons/home.png',
+		srcActiveImg: '/icons/homeActive.png'
 	}
 }
 
 export const Active: Story = {
 	args: {
 		children: 'Home',
-		srcImg: '/home.png',
-		srcActiveImg: '/homeActive.png',
+		srcImg: '/icons/home.png',
+		srcActiveImg: '/icons/homeActive.png',
 		isActive: true
 	}
 }
