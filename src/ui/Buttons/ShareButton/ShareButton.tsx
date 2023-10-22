@@ -1,7 +1,7 @@
 import React from 'react'
 import RoundButton from '../RoundButton/RoundButton'
+import Share from '../../Icons/Share'
 
 export default function ShareButton() {
-	return <RoundButton srcImg={'/icons/share.png'} />
+	return <RoundButton icon={Share} />
 }
-

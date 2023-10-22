@@ -1,4 +1,4 @@
 export interface IRoundButtonProps {
     srcImg: string;
-    color: string;
+    color?: string;
 }

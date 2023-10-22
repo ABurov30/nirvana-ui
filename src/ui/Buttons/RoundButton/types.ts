@@ -1,4 +1,6 @@
+import { ReactElement, ReactNode } from 'react'
+
 export interface IRoundButtonProps {
-    srcImg: string,
-    color?: string
+	icon: ReactNode
+	color?: string
 }
