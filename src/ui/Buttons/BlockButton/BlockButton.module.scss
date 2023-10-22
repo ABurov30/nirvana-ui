@@ -1,0 +1,14 @@
+@import '../../../constants/colors.scss';
+
+.BlockButton {
+	background-color: $primary-grey;
+	display: flex;
+	align-items: center;
+	padding: 5px 32px;
+	gap: 10px;
+	min-width: 50px;
+	min-height: 40px;
+	max-width: 100px;
+	opacity: 0.5;
+	border-radius: 5px;
+}

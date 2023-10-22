@@ -1,4 +1,5 @@
 const path = require('path')
+const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
 	mode: 'production',
@@ -16,6 +17,12 @@ module.exports = {
 	externals: {
 		react: 'react'
 	},
+	plugins: [
+		new CopyPlugin({
+			patterns: [{ from: 'public', to: '' }]
+		})
+	],
+
 	module: {
 		rules: [
 			{

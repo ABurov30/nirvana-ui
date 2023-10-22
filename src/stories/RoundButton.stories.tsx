@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import RoundButton from '../ui/RoundButton/RoundButton'
+import RoundButton from '../ui/Buttons/RoundButton/RoundButton'
 
 const meta: Meta<typeof RoundButton> = {
 	component: RoundButton
@@ -74,8 +74,3 @@ export const VolumeButton: Story = {
 		color: 'transparent'
 	}
 }
-
-
-
-
-

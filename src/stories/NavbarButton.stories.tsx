@@ -1,11 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import NavbarButton from '../ui/NavbarButton/NavbarButton'
+import NavbarButton from '../ui/Buttons/NavbarButton/NavbarButton'
 
 const meta: Meta<typeof NavbarButton> = {
-  component: NavbarButton,
-  decorators: [(Story) => <div style={{width: '120px'}}><Story /></div>],
-};
+	component: NavbarButton,
+	decorators: [
+		Story => (
+			<div style={{ width: '120px' }}>
+				<Story />
+			</div>
+		)
+	]
+}
 
 export default meta
 type Story = StoryObj<typeof NavbarButton>
