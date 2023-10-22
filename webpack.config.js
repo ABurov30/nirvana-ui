@@ -1,5 +1,9 @@
 const path = require('path')
-const CopyPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
+
 
 module.exports = {
 	mode: 'production',
@@ -17,11 +21,6 @@ module.exports = {
 	externals: {
 		react: 'react'
 	},
-	plugins: [
-		new CopyPlugin({
-			patterns: [{ from: 'public', to: 'public' }]
-		})
-	],
 
 	module: {
 		rules: [
@@ -43,13 +42,13 @@ module.exports = {
 			{
 				test: /\.css/,
 				exclude: /node_modules/,
-				use: ['style-loader', 'css-loader']
+				use: [MiniCssExtractPlugin.loader, 'style-loader', 'css-loader']
 			},
 			{
 				test: /\.s(a|c)ss$/i,
 				exclude: /node_modules/,
 				use: [
-					'style-loader',
+					MiniCssExtractPlugin.loader,
 					{
 						loader: 'css-loader',
 						options: {
@@ -66,5 +65,14 @@ module.exports = {
 				]
 			}
 		]
-	}
+	},
+	optimization: {
+		minimize: true,
+		minimizer: [
+			new HtmlMinimizerPlugin(),
+			new CssMinimizerPlugin(),
+			new TerserPlugin()
+		]
+	},
+	plugins: [new MiniCssExtractPlugin()]
 }
