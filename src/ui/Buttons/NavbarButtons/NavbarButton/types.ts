@@ -1,7 +1,7 @@
-import { ReactElement } from "react"
+import { ReactNode } from 'react'
 
 export interface INabvarButtonProps {
-	text: React.ReactNode
-	icon?: ReactElement
+	text: string
+	icon?: ReactNode
 	isActive?: boolean
 }
