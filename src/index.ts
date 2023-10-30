@@ -58,7 +58,7 @@ export {
 	RepeatRoundButton,
 	RightArrowRoundButton,
 	ShareRoundButton,
-	ThemeSlider,
+	// ThemeSlider,
 	VolumeSlider,
 	UserPanel,
 	Card,
