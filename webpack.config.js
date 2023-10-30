@@ -146,12 +146,6 @@ module.exports = {
 		}),
 		new CleanWebpackPlugin()
 	],
-	output: {
-		filename: isDev ? '[name].js' : '[name].[contenthash].js',
-		path: path.resolve(__dirname, 'dist'),
-		assetModuleFilename: 'public/[name].[contenthash][ext][query]',
-		clean: true
-	},
 	stats: {
 		errorDetails: isDev
 	}
