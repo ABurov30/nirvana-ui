@@ -34,6 +34,7 @@ import RightArrow from './ui/Icons/RightArrow'
 import Share from './ui/Icons/Share'
 import User from './ui/Icons/User'
 import Volume from './ui/Icons/Volume'
+import Card from './ui/Card/Card'
 
 export {
 	Loader,
@@ -60,6 +61,7 @@ export {
 	ThemeSlider,
 	VolumeSlider,
 	UserPanel,
+	Card,
 	DownArrow,
 	Home,
 	LeftArrow,
