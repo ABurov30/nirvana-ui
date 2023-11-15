@@ -12,7 +12,7 @@ export default function RoundButton({
 	return (
 		<button
 			className={styles.RoundButton}
-			style={{ backgroundColor: color, width: size , height: size}}
+			style={{ backgroundColor: color, width: size, height: size }}
 			onClick={() => onClick()}
 		>
 			<div className={styles.IconContainer}>{icon}</div>
