@@ -7,14 +7,19 @@
 	background-color: $minor-grey;
 	height: 50px;
 	width: 50px;
+	transition: transform 0.3s ease;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+.RoundButton:hover {
+	transform: scale(1.1);
+}
 
 .IconContainer {
-	width: 35px;
-	height: 35px;
+	transform: scale(1.1);
+	width: 80%;
+	height: 80%;
 	display: flex;
 	align-items: center;
 	justify-content: center;

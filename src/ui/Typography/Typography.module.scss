@@ -1,7 +1,12 @@
-@import "../../constants/colors.scss";
+@import '../../constants/colors.scss';
 
 .typography {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: $primary-grey;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: $primary-grey;
+	transition: transform 0.5s ease;
+}
+
+.typography :hover {
+	transform: scale(1.1);
 }
