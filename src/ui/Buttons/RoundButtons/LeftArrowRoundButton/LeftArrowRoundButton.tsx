@@ -1,7 +1,8 @@
 import React from 'react'
 import RoundButton from '../RoundButton/RoundButton'
 import LeftArrow from '../../../Icons/LeftArrow'
+import { IconRoundButtonProps } from '../types'
 
-export default function LeftArrowRoundButton() {
-	return <RoundButton icon={LeftArrow} />
+export default function LeftArrowRoundButton({onClick}:IconRoundButtonProps) {
+	return <RoundButton icon={LeftArrow} onClick={onClick}/>
 }
