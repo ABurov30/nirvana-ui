@@ -5,8 +5,8 @@ import { IRoundButtonProps } from './types'
 
 export default function RoundButton({ icon, color }: IRoundButtonProps) {
 	return (
-		<div className={styles.RoundButton} style={{ backgroundColor: color }}>
+		<button className={styles.RoundButton} style={{ backgroundColor: color }}>
 			<div className={styles.IconContainer}>{icon}</div>
-		</div>
+		</button>
 	)
 }
