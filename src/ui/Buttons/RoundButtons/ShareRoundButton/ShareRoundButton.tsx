@@ -3,6 +3,9 @@ import RoundButton from '../RoundButton/RoundButton'
 import Share from '../../../Icons/Share'
 import { IconRoundButtonProps } from '../types'
 
-export default function ShareRoundButton({ onClick }: IconRoundButtonProps) {
-	return <RoundButton icon={Share} onClick={onClick} />
+export default function ShareRoundButton({
+	onClick,
+	size
+}: IconRoundButtonProps) {
+	return <RoundButton icon={Share} onClick={onClick} size={size} />
 }
