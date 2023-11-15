@@ -3,7 +3,8 @@
 
 .RoundButton {
 	border-radius: $round;
-	background-color: $primary-grey;
+	border-color: transparent;
+	background-color: $minor-grey;
 	height: 50px;
 	width: 50px;
 	display: flex;
