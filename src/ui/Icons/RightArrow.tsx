@@ -4,7 +4,7 @@ const RightArrow = (
 	<svg
 		viewBox="-19.04 0 75.804 75.804"
 		xmlns="http://www.w3.org/2000/svg"
-		fill="#000000"
+		fill="#434544"
 	>
 		<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 		<g
