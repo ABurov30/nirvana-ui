@@ -4,4 +4,5 @@ export interface IRoundButtonProps {
 	icon: ReactNode
 	color?: string
 	onClick: () => void
+	size: number
 }

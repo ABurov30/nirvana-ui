@@ -6,12 +6,13 @@ import { IRoundButtonProps } from './types'
 export default function RoundButton({
 	icon,
 	color,
-	onClick
+	onClick,
+	size
 }: IRoundButtonProps) {
 	return (
 		<button
 			className={styles.RoundButton}
-			style={{ backgroundColor: color }}
+			style={{ backgroundColor: color, width: size , height: size}}
 			onClick={() => onClick()}
 		>
 			<div className={styles.IconContainer}>{icon}</div>

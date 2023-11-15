@@ -1,3 +1,3 @@
-export interface IconRoundButtonProps {
-	onClick: () => void
-}
+import { IRoundButtonProps } from './RoundButton/types'
+
+export interface IconRoundButtonProps extends Partial<IRoundButtonProps> {}
