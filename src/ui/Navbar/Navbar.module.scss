@@ -4,6 +4,7 @@
 	margin: 0;
 	width: 5vw;
 	min-width: 70px;
+	max-width: 80px;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -13,5 +14,6 @@
 
 .navbarHovered {
 	min-width: 160px;
+	max-width: 200px;
 	width: 10vw;
 }

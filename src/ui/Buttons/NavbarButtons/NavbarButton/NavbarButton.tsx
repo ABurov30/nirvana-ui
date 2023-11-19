@@ -13,7 +13,6 @@ export default function NavbarButton({
 	weight,
 	onClick
 }: NavbarButtonProps) {
-	console.log(isActive, 'isActive')
 	return (
 		<div
 			className={
