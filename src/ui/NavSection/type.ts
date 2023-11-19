@@ -1,4 +1,4 @@
-export interface INavSectionProps {
-	children: React.ReactNode
-	isHovered: boolean
+export interface NavSectionProps extends React.HTMLProps<HTMLDivElement> {
+	children: React.ReactNode[] | React.ReactNode
+	isHovered?: boolean
 }

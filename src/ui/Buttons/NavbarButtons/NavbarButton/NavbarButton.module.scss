@@ -4,26 +4,30 @@
 	background-color: transparent;
 	display: flex;
 	align-items: center;
-	gap: 10px;
 	width: 100%;
-	margin: 0 10px;
 	transition: transform 0.2s ease-in-out;
 }
 
+.navbarButtonActive {
+	border-right: 2px solid $primary-violet;
+}
+
 .iconContainer {
-	width: 35px;
-	height: 35px;
+	margin: 10px;
+	margin-left: 20px;
+	width: 30px;
+	height: 30px;
 }
 
 .iconContainer svg {
-	width: 35px;
-	height: 35px;
+	width: 25px;
+	height: 25px;
 }
 
 .navbarButton:hover {
-	transform: scale(1.1);
+	background-color: #ADADAE;
 }
 
 .navbarButton span {
-	color: #2a2630;
+	color: $primary-grey;
 }

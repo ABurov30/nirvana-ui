@@ -1,9 +1,9 @@
 import React from 'react'
-import { INavSectionProps } from './type'
+import { NavSectionProps } from './type'
 //@ts-ignore
 import styles from './NavSection.module.scss'
 
-export default function NavSection({ children, isHovered }: INavSectionProps) {
+export default function NavSection({ children, isHovered }: NavSectionProps) {
 	const childrenWithProps = React.Children.map(children, child => {
 		if (React.isValidElement(child)) {
 			return React.cloneElement(child, { isHovered } as React.Attributes)

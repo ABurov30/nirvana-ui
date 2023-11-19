@@ -2,14 +2,18 @@ import React from 'react'
 import Typography from '../../../Typography/Typography'
 //@ts-ignore
 import styles from './NavbarButton.module.scss'
-import { INabvarButtonProps } from './types'
+import { NavbarButtonProps } from './types'
 
 export default function NavbarButton({
 	text,
 	icon,
 	isActive,
-	isHovered
-}: INabvarButtonProps) {
+	isHovered,
+	color,
+	weight,
+	onClick
+}: NavbarButtonProps) {
+	console.log(isActive, 'isActive')
 	return (
 		<div
 			className={
@@ -17,10 +21,12 @@ export default function NavbarButton({
 					? styles.navbarButtonActive + ' ' + styles.navbarButton
 					: styles.navbarButton
 			}
+			onClick={() => onClick()}
 		>
-			<div className={styles.iconContainer}>{icon}</div>
-			{isHovered ? <Typography text={text} /> : null}
-			<Typography text={text} />
+			<div className={styles.iconContainer}>{icon(isActive)}</div>
+			{isHovered ? (
+				<Typography weight={weight} color={color} text={text} />
+			) : null}
 		</div>
 	)
 }
