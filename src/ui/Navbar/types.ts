@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react'
 
 export interface INavbarProps {
-    children: React.ReactNode
+	children: React.ReactNode[]
+	isHovered: boolean
+	setIsHovered: (arg0: boolean) => void
 }

@@ -7,16 +7,20 @@ import { INabvarButtonProps } from './types'
 export default function NavbarButton({
 	text,
 	icon,
-	isActive
+	isActive,
+	isHovered
 }: INabvarButtonProps) {
 	return (
 		<div
 			className={
-				isActive ? styles.NavbarButtonActive : styles.NavbarButton
+				isActive
+					? styles.navbarButtonActive + ' ' + styles.navbarButton
+					: styles.navbarButton
 			}
 		>
-			<div className={styles.IconContainer}>{icon}</div>
-			<Typography text={text} color="#2A2630" />
+			<div className={styles.iconContainer}>{icon}</div>
+			{isHovered ? <Typography text={text} /> : null}
+			<Typography text={text} />
 		</div>
 	)
 }

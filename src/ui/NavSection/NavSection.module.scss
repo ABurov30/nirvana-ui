@@ -5,13 +5,11 @@
 	border-width: 1px 0;
 	border-style: solid;
 	border-color: $primary-grey;
-	width: 100%;
-	height: 100%;
-	width: 40px;
-	margin: 0;
+	width: 80%;
+	padding: 20px 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	gap: 10px;
 }
-

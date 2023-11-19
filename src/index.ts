@@ -9,6 +9,7 @@ import PlayBlockButton from './ui/Buttons/BlockButtons/PlayBlockButton/PlayBlock
 import ShareRoundButton from './ui/Buttons/RoundButtons/ShareRoundButton/ShareRoundButton'
 import AccountNavbarButton from './ui/Buttons/NavbarButtons/AccountNavbarButton/AccountNavbarButton'
 import FavoritesNavbarButton from './ui/Buttons/NavbarButtons/FavoritesNavbarButton/FavoritesNavbarButton'
+import LogoNavbarButton from './ui/Buttons/NavbarButtons/LogoNavbarButton/LogoNavbarButton'
 import HomeNavbarButton from './ui/Buttons/NavbarButtons/HomeNavbarButton/HomeNavbarButton'
 import RadioNavbarButton from './ui/Buttons/NavbarButtons/RadioNavbarButton/RadioNavbarButton'
 import SettingsNavbarButton from './ui/Buttons/NavbarButtons/SettingsNavbarButton/SettingsNavbarButton'
@@ -50,6 +51,7 @@ export {
 	FavoritesNavbarButton,
 	HomeNavbarButton,
 	RadioNavbarButton,
+	LogoNavbarButton,
 	SettingsNavbarButton,
 	DownArrowRoundButton,
 	LeftArrowRoundButton,
