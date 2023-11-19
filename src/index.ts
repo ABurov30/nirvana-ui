@@ -2,6 +2,7 @@ import Loader from './ui/Loader/Loader'
 import RoundButton from './ui/Buttons/RoundButtons/RoundButton/RoundButton'
 import Typography from './ui/Typography/Typography'
 import BlockButton from './ui/Buttons/BlockButtons/BlockButton/BlockButton'
+import Navbar from './ui/Navbar/Navbar'
 import NavSection from './ui/NavSection/NavSection'
 import MixBlockButton from './ui/Buttons/BlockButtons/MixBlockButton/MixBlockButton'
 import PlayBlockButton from './ui/Buttons/BlockButtons/PlayBlockButton/PlayBlockButton'
@@ -41,6 +42,7 @@ export {
 	RoundButton,
 	Typography,
 	BlockButton,
+	Navbar,
 	NavSection,
 	MixBlockButton,
 	PlayBlockButton,
