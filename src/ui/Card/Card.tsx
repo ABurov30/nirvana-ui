@@ -4,10 +4,9 @@ import { ICardProps } from './types'
 //@ts-ignore
 import style from './Card.module.scss'
 
-export default function Card({ srcImg, title, artist, imgSize }: ICardProps) {
+export default function Card({ srcImg, title, artist, imgSize, onClick }: ICardProps) {
 	return (
-		<div className={style.card}>
-			{/* <div className={style.cardCover}> */}
+		<div className={style.card} onClick={onClick}>
 			<img
 				alt="Музыкальная обложка"
 				src={srcImg}

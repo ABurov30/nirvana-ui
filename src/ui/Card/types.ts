@@ -4,4 +4,5 @@ export interface ICardProps {
 	title?: string
 	artist?: string
 	imgSize?: number
+	onClick?: () => void
 }
