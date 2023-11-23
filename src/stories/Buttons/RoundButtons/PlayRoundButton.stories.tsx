@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import PlayRoundButton from '../../../ui/Buttons/RoundButtons/PlayRoundButton/PlayRoundButton'
+import PlayRoundButton from '../../../ui/Buttons/RoundButtons/presets/PlayRoundButton/PlayRoundButton'
 
 const meta: Meta<typeof PlayRoundButton> = {
 	component: PlayRoundButton

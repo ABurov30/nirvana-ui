@@ -1,4 +1,5 @@
-import { IRoundButtonProps } from '../RoundButton/types'
+import { RoundButtonProps } from "../RoundButton/types";
+
 
 export interface RoundButtonPresetsProps
-	extends Pick<IRoundButtonProps, 'onClick' | 'size'> {}
+	extends Pick<RoundButtonProps, 'onClick' | 'size' | 'className'> {}

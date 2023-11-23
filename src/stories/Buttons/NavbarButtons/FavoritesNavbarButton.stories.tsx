@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import FavoritesNavbarButton from '../../../ui/Buttons/NavbarButtons/FavoritesNavbarButton/FavoritesNavbarButton'
+import FavoritesNavbarButton from '../../../ui/Buttons/NavbarButtons/presets/FavoritesNavbarButton/FavoritesNavbarButton'
 
 const meta: Meta<typeof FavoritesNavbarButton> = {
 	component: FavoritesNavbarButton,

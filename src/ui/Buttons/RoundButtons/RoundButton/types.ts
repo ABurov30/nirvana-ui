@@ -1,8 +1,9 @@
 import { ReactNode } from 'react'
 
-export interface IRoundButtonProps extends React.HTMLProps<HTMLButtonElement> {
+export interface RoundButtonProps extends React.HTMLProps<HTMLButtonElement> {
 	icon: ReactNode
-	onClick: () => void
+	onClick?: () => void
 	color?: string
 	size?: number
+	className?: string
 }

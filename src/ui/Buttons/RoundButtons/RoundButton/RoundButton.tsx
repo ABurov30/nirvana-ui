@@ -1,19 +1,24 @@
 //@ts-ignore
 import styles from './RoundButton.module.scss'
 import React from 'react'
-import { IRoundButtonProps } from './types'
+import { RoundButtonProps } from './types'
 
 export default function RoundButton({
 	icon,
 	color,
 	onClick,
-	size
-}: IRoundButtonProps) {
+	size,
+	className
+}: RoundButtonProps) {
 	return (
 		<button
-			className={styles.RoundButton}
+			className={
+				className
+					? styles.RoundButton + ' ' + className
+					: styles.RoundButton
+			}
 			style={{ backgroundColor: color, width: size, height: size }}
-			onClick={() => onClick()}
+			onClick={onClick}
 		>
 			<div className={styles.IconContainer}>{icon}</div>
 		</button>

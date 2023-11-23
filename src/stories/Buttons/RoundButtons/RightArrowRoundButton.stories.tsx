@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import RightArrowRoundButton from '../../../ui/Buttons/RoundButtons/RightArrowRoundButton/RightArrowRoundButton'
+import RightArrowRoundButton from '../../../ui/Buttons/RoundButtons/presets/RightArrowRoundButton/RightArrowRoundButton'
 
 const meta: Meta<typeof RightArrowRoundButton> = {
 	component: RightArrowRoundButton

@@ -15,11 +15,7 @@ function Navbar({ children, isHovered, setIsHovered }: INavbarProps) {
 		<div
 			onMouseEnter={() => setIsHovered(true)}
 			onMouseLeave={() => setIsHovered(false)}
-			className={
-				isHovered
-					? styles.navbarHovered + ' ' + styles.navbar
-					: styles.navbar
-			}
+			className={styles.navbar}
 		>
 			{childrenWithProps}
 		</div>

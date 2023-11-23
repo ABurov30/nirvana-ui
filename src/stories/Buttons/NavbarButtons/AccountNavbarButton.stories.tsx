@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import AccountNavbarButton from '../../../ui/Buttons/NavbarButtons/AccountNavbarButton/AccountNavbarButton'
+import AccountNavbarButton from '../../../ui/Buttons/NavbarButtons/presets/AccountNavbarButton/AccountNavbarButton'
 
 const meta: Meta<typeof AccountNavbarButton> = {
 	component: AccountNavbarButton,

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import React from 'react'
 
-import RadioNavbarButton from '../../../ui/Buttons/NavbarButtons/RadioNavbarButton/RadioNavbarButton'
+import RadioNavbarButton from '../../../ui/Buttons/NavbarButtons/presets/RadioNavbarButton/RadioNavbarButton'
 
 const meta: Meta<typeof RadioNavbarButton> = {
 	component: RadioNavbarButton,

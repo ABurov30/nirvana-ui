@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import PlayBlockButton from '../../../ui/Buttons/BlockButtons/PlayBlockButton/PlayBlockButton'
+import PlayBlockButton from '../../../ui/Buttons/BlockButtons/presets/PlayBlockButton/PlayBlockButton'
 
 const meta: Meta<typeof PlayBlockButton> = {
 	component: PlayBlockButton

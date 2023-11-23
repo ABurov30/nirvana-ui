@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import RepeatRoundButton from '../../../ui/Buttons/RoundButtons/RepeatRoundButton/RepeatRoundButton'
+import RepeatRoundButton from '../../../ui/Buttons/RoundButtons/presets/RepeatRoundButton/RepeatRoundButton'
 
 const meta: Meta<typeof RepeatRoundButton> = {
 	component: RepeatRoundButton

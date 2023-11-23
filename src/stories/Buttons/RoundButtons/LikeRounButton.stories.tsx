@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import LikeRoundButton from '../../../ui/Buttons/RoundButtons/LikeRoundButton/LikeRoundButton'
+import LikeRoundButton from '../../../ui/Buttons/RoundButtons/presets/LikeRoundButton/LikeRoundButton'
 
 const meta: Meta<typeof LikeRoundButton> = {
 	component: LikeRoundButton

@@ -21,9 +21,7 @@ import PlayRoundButton from './ui/Buttons/RoundButtons/presets/PlayRoundButton/P
 import ReminderRoundButton from './ui/Buttons/RoundButtons/presets/ReminderRoundButton/ReminderRoundButton'
 import RepeatRoundButton from './ui/Buttons/RoundButtons/presets/RepeatRoundButton/RepeatRoundButton'
 import RightArrowRoundButton from './ui/Buttons/RoundButtons/presets/RightArrowRoundButton/RightArrowRoundButton'
-import ThemeSlider from './ui/Sliders/ThemeSlider/ThemeSlider'
-import VolumeSlider from './ui/Sliders/VolumeSlider/VolumeSlider'
-import UserPanel from './ui/UserPanel/UserPanel'
+import VolumeButton from './ui/Buttons/InteractiveButtons/VolumeButton/VolumeButton'
 import DownArrow from './ui/Icons/DownArrow'
 import LeftArrow from './ui/Icons/LeftArrow'
 import Home from './ui/Icons/Home'
@@ -62,9 +60,7 @@ export {
 	RepeatRoundButton,
 	RightArrowRoundButton,
 	ShareRoundButton,
-	// ThemeSlider,
-	VolumeSlider,
-	UserPanel,
+	VolumeButton,
 	Card,
 	DownArrow,
 	Home,

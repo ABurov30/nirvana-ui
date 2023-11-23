@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import MixBlockButton from '../../../ui/Buttons/BlockButtons/MixBlockButton/MixBlockButton'
+import MixBlockButton from '../../../ui/Buttons/BlockButtons/presets/MixBlockButton/MixBlockButton'
 
 const meta: Meta<typeof MixBlockButton> = {
 	component: MixBlockButton

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import DownArrowRoundButton from '../../../ui/Buttons/RoundButtons/DownArrowRoundButton/DownArrowRoundButton'
+import DownArrowRoundButton from '../../../ui/Buttons/RoundButtons/presets/DownArrowRoundButton/DownArrowRoundButton'
 
 const meta: Meta<typeof DownArrowRoundButton> = {
 	component: DownArrowRoundButton

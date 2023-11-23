@@ -4,11 +4,15 @@ import Typography from '../../../Typography/Typography'
 import styles from './BlockButton.module.scss'
 import { IBlockButtonProps } from './types'
 
-export default function BlockButton({ text, icon }: IBlockButtonProps) {
+export default function BlockButton({
+	text,
+	icon,
+	...rest
+}: IBlockButtonProps) {
 	return (
-		<div className={styles.BlockButton}>
-			<div className={styles.IconContainer}>{icon}</div>
+		<button {...rest} className={styles.BlockButton}>
+			{icon && <div className={styles.IconContainer}>{icon}</div>}
 			<Typography text={text} color="#f3f3f3" />
-		</div>
+		</button>
 	)
 }

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import MixRoundButton from '../../../ui/Buttons/RoundButtons/MixRoundButton/MixRoundButton'
+import MixRoundButton from '../../../ui/Buttons/RoundButtons/presets/MixRoundButton/MixRoundButton'
 
 const meta: Meta<typeof MixRoundButton> = {
 	component: MixRoundButton
