@@ -7,10 +7,11 @@ import { IBlockButtonProps } from './types'
 export default function BlockButton({
 	text,
 	icon,
+	onClick,
 	...rest
 }: IBlockButtonProps) {
 	return (
-		<button {...rest} className={styles.BlockButton}>
+		<button {...rest} className={styles.BlockButton} onClick={onClick}>
 			{icon && <div className={styles.IconContainer}>{icon}</div>}
 			<Typography text={text} color="#f3f3f3" />
 		</button>

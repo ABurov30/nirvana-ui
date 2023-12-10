@@ -1,7 +1,8 @@
 @import '../../../../constants/colors.scss';
 
 .BlockButton {
-	background-color: $minor-grey;
+	background-color: $primary-grey;
+	opacity: 0.5;
 	display: flex;
 	align-items: center;
 	padding: 10px 32px;
@@ -9,7 +10,7 @@
 	width: fit-content;
 	border: none;
 	border-radius: 5px;
-	transition: all 0.2s ease-in-out;	
+	transition: all 0.2s ease-in-out;
 }
 
 .IconContainer {
@@ -20,4 +21,5 @@
 .BlockButton:hover {
 	background-color: $primary-violet;
 	transform: scale(1.1);
+	opacity: 1;
 }

@@ -4,7 +4,8 @@
 .RoundButton {
 	border-radius: $round;
 	border-color: transparent;
-	background-color: $minor-grey;
+	background-color: $primary-grey;
+	opacity: 0.5;
 	height: 50px;
 	width: 50px;
 	transition: transform 0.3s ease;
@@ -14,6 +15,8 @@
 }
 .RoundButton:hover {
 	transform: scale(1.1);
+	background-color: $primary-violet;
+	opacity: 1;
 }
 
 .IconContainer {
