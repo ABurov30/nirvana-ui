@@ -12,6 +12,7 @@ import FavoritesNavbarButton from './ui/Buttons/NavbarButtons/presets/FavoritesN
 import LogoNavbarButton from './ui/Buttons/NavbarButtons/presets/LogoNavbarButton/LogoNavbarButton'
 import HomeNavbarButton from './ui/Buttons/NavbarButtons/presets/HomeNavbarButton/HomeNavbarButton'
 import RadioNavbarButton from './ui/Buttons/NavbarButtons/presets/RadioNavbarButton/RadioNavbarButton'
+import TrackNavbarButton from './ui/Buttons/NavbarButtons/presets/TrackNavbarButton/TrackNavbarButton'
 import SettingsNavbarButton from './ui/Buttons/NavbarButtons/presets/SettingsNavbarButton/SettingsNavbarButton'
 import DownArrowRoundButton from './ui/Buttons/RoundButtons/presets/DownArrowRoundButton/DownArrowRoundButton'
 import LeftArrowRoundButton from './ui/Buttons/RoundButtons/presets/LeftArrowRoundButton/LeftArrowRoundButton'
@@ -50,6 +51,7 @@ export {
 	HomeNavbarButton,
 	RadioNavbarButton,
 	LogoNavbarButton,
+	TrackNavbarButton,
 	SettingsNavbarButton,
 	DownArrowRoundButton,
 	LeftArrowRoundButton,

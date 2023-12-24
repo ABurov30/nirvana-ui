@@ -1,3 +1,5 @@
+@import '../../constants/colors.scss';
+
 .card img {
 	border: solid transparent 1px;
 	border-top-right-radius: 14px;
@@ -16,4 +18,11 @@
 
 .card :hover {
 	transform: scale(1.1);
+}
+
+.imgContainer {
+	border-top-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+	border: solid transparent 1px;
+	background-color: $minor-grey;
 }
