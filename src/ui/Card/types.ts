@@ -2,7 +2,6 @@
 export interface ICardProps {
 	srcImg: string
 	title?: string
-	artist?: string
-	imgSize?: number
+	subTitle?: string
 	onClick?: () => void
 }

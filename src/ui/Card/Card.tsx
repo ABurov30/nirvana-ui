@@ -4,35 +4,28 @@ import { ICardProps } from './types'
 //@ts-ignore
 import style from './Card.module.scss'
 
-export default function Card({
-	srcImg,
-	title,
-	artist,
-	imgSize,
-	onClick
-}: ICardProps) {
+export default function Card({ srcImg, title, subTitle, onClick }: ICardProps) {
 	return (
 		<div className={style.card} onClick={onClick}>
 			<div
 				className={style.imgContainer}
 				style={{
-					width: `${imgSize ? imgSize : 100}px`,
-					height: `${imgSize ? imgSize : 100}px`
+					width: `100px`,
+					height: `100px`
 				}}
 			>
 				<img
 					alt="Музыкальная обложка"
 					src={srcImg}
-					height={`${imgSize ? imgSize : 100}px`}
-					width={`${imgSize ? imgSize : 100}px`}
+					height={'100px'}
+					width={'100px'}
 				/>
 			</div>
-			{/* </div> */}
 			{title ? (
 				<Typography text={title} fontSize="16" weight="semibold" />
 			) : null}
-			{artist ? (
-				<Typography text={artist} fontSize="14" weight="regular" />
+			{subTitle ? (
+				<Typography text={subTitle} fontSize="14" weight="regular" />
 			) : null}
 		</div>
 	)
