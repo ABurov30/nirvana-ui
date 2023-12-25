@@ -7,25 +7,31 @@ import style from './Card.module.scss'
 export default function Card({ srcImg, title, subTitle, onClick }: ICardProps) {
 	return (
 		<div className={style.card} onClick={onClick}>
-			<div
-				className={style.imgContainer}
-				style={{
-					width: `100px`,
-					height: `100px`
-				}}
-			>
-				<img
-					alt="Музыкальная обложка"
-					src={srcImg}
-					height={'100px'}
-					width={'100px'}
-				/>
-			</div>
+			<img
+				alt="Музыкальная обложка"
+				src={srcImg}
+				height={'100px'}
+				width={'100px'}
+			/>
 			{title ? (
-				<Typography text={title} fontSize="16" weight="semibold" />
+				<Typography
+					text={
+						title.length > 10 ? `${title.slice(0, 10)}...` : title
+					}
+					fontSize="16"
+					weight="semibold"
+				/>
 			) : null}
 			{subTitle ? (
-				<Typography text={subTitle} fontSize="14" weight="regular" />
+				<Typography
+					text={
+						subTitle.length > 10
+							? `${subTitle.slice(0, 10)}...`
+							: subTitle
+					}
+					fontSize="14"
+					weight="regular"
+				/>
 			) : null}
 		</div>
 	)
