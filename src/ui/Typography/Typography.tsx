@@ -7,7 +7,8 @@ export default function Typography({
 	text,
 	fontSize,
 	weight,
-	color
+	color,
+	textAlign
 }: ITypographyProps) {
 	const fontWeight = (() => {
 		switch (weight?.toLowerCase()) {
@@ -22,13 +23,14 @@ export default function Typography({
 		}
 	})()
 
-	const size = fontSize+'px'
+	const size = fontSize + 'px'
 
 	return (
 		<span
 			className={style.typography}
 			style={{
 				fontWeight,
+				textAlign: textAlign,
 				fontSize: size,
 				color
 			}}

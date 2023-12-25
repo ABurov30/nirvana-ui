@@ -14,7 +14,10 @@
 	justify-content: center;
 }
 .RoundButton:hover {
-	transform: scale(1.1);
+	box-shadow:
+		0 0 5px $primary-violet,
+		0 0 25px $primary-violet,
+		0 0 50px $primary-violet;
 	background-color: $primary-violet;
 	opacity: 1;
 }
