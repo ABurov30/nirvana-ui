@@ -1,6 +1,6 @@
 import React, { SVGProps } from 'react'
 
-const Like = (args?: any) => (
+const Like = (isActive: boolean, rest:any) => (
 	<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
 		<g
@@ -18,7 +18,7 @@ const Like = (args?: any) => (
 				strokeWidth="2"
 				strokeLinecap="round"
 				strokeLinejoin="round"
-				{...args}
+				{...rest}
 			></path>{' '}
 		</g>
 	</svg>
