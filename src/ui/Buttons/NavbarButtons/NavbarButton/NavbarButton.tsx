@@ -21,6 +21,7 @@ export default function NavbarButton({
 					: styles.navbarButton
 			}
 			onClick={() => onClick()}
+			aria-label={text}
 		>
 			<div className={styles.iconContainer}>{icon(isActive)}</div>
 			{isHovered ? (

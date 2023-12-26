@@ -9,6 +9,7 @@ export default function LikeRoundButton({ onClick, size }: RoundButtonPresetsPro
 			icon={Like({ stroke: '#F3F3F3' })}
 			onClick={onClick}
 			size={size}
+			ariaLabel={'Like'}
 		/>
 	)
 }

@@ -11,7 +11,12 @@ export default function BlockButton({
 	...rest
 }: IBlockButtonProps) {
 	return (
-		<button {...rest} className={styles.BlockButton} onClick={onClick}>
+		<button
+			{...rest}
+			className={styles.BlockButton}
+			onClick={onClick}
+			aria-label={text}
+		>
 			{icon && <div className={styles.IconContainer}>{icon}</div>}
 			<Typography text={text} color="#f3f3f3" />
 		</button>

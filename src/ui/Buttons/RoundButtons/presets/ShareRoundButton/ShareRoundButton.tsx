@@ -7,5 +7,5 @@ export default function ShareRoundButton({
 	onClick,
 	size
 }: RoundButtonPresetsProps) {
-	return <RoundButton icon={Share} onClick={onClick} size={size} />
+	return <RoundButton icon={Share} onClick={onClick} size={size} ariaLabel={'Share'}/>
 }

@@ -7,5 +7,12 @@ export default function RepeatRoundButton({
 	onClick,
 	size
 }: RoundButtonPresetsProps) {
-	return <RoundButton icon={Repeat} onClick={onClick} size={size} />
+	return (
+		<RoundButton
+			icon={Repeat}
+			onClick={onClick}
+			size={size}
+			ariaLabel={'Repeat'}
+		/>
+	)
 }

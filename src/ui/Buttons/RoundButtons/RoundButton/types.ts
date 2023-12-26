@@ -6,4 +6,5 @@ export interface RoundButtonProps extends React.HTMLProps<HTMLButtonElement> {
 	color?: string
 	size?: number
 	className?: string
+	ariaLabel?: string
 }

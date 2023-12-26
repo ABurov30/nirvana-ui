@@ -8,7 +8,8 @@ export default function RoundButton({
 	color,
 	onClick,
 	size,
-	className
+	className,
+	ariaLabel
 }: RoundButtonProps) {
 	return (
 		<button
@@ -19,6 +20,7 @@ export default function RoundButton({
 			}
 			style={{ backgroundColor: color, width: size, height: size }}
 			onClick={onClick}
+			aria-label={ariaLabel}
 		>
 			<div className={styles.IconContainer}>{icon}</div>
 		</button>

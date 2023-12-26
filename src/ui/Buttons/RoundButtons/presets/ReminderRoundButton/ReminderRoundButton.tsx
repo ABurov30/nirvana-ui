@@ -4,5 +4,12 @@ import Reminder from '../../../../Icons/Reminder'
 import { RoundButtonPresetsProps } from '../types'
 
 export default function ReminderRoundButton({ onClick, size }: RoundButtonPresetsProps) {
-	return <RoundButton icon={Reminder} onClick={onClick} size={size} />
+	return (
+		<RoundButton
+			icon={Reminder}
+			onClick={onClick}
+			size={size}
+			ariaLabel={'Reminder'}
+		/>
+	)
 }

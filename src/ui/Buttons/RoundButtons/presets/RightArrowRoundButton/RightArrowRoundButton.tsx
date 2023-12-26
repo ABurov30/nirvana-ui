@@ -7,5 +7,12 @@ export default function RightArrowRoundButton({
 	onClick,
 	size
 }: RoundButtonPresetsProps) {
-	return <RoundButton icon={RightArrow} onClick={onClick} size={size} />
+	return (
+		<RoundButton
+			icon={RightArrow}
+			onClick={onClick}
+			size={size}
+			ariaLabel={'Next'}
+		/>
+	)
 }
