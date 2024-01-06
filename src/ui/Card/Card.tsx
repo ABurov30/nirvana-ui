@@ -7,7 +7,7 @@ import style from './Card.module.scss'
 export default function Card({ srcImg, title, subTitle, onClick }: ICardProps) {
 	return (
 		<div className={style.card} onClick={onClick}>
-			<img alt={title} src={srcImg} loading="lazy" decoding="async" />
+			<img alt={title} src={srcImg} loading="lazy" decoding="sync" />
 			{title ? (
 				<Typography
 					text={

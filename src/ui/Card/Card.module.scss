@@ -6,6 +6,7 @@
 	border-bottom-left-radius: 14px;
 	transition: transform 0.5s ease;
 	width: 100%;
+	height: 100%;
 }
 
 .card {
@@ -15,10 +16,9 @@
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 10px;
-	width: 15%;
+	width: 18%;
 }
 
 .card :hover {
 	transform: scale(1.1);
 }
-
