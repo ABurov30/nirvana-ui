@@ -22,3 +22,13 @@
 .card :hover {
 	transform: scale(1.1);
 }
+
+@media screen and (max-width: 479px) {
+	.card span {
+		font-size: 0.5em !important;
+	}
+	.card img {
+		width: 4em;
+		height: 4em;
+	}
+}

@@ -1,10 +1,10 @@
 import { ReactNode } from 'react'
 
-export interface RoundButtonProps extends React.HTMLProps<HTMLButtonElement> {
+export interface RoundButtonProps {
 	icon: ReactNode
 	onClick?: () => void
 	color?: string
-	size?: number
+	size?: string
 	className?: string
 	ariaLabel?: string
 }

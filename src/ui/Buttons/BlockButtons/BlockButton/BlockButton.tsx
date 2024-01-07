@@ -18,7 +18,7 @@ export default function BlockButton({
 			aria-label={text}
 		>
 			{icon && <div className={styles.IconContainer}>{icon}</div>}
-			<Typography text={text} color="#f3f3f3" />
+			<Typography text={text} color="#f3f3f3" fontSize='1em'/>
 		</button>
 	)
 }

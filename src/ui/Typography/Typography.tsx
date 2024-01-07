@@ -23,7 +23,7 @@ export default function Typography({
 		}
 	})()
 
-	const size = fontSize + 'px'
+	const size = fontSize
 
 	return (
 		<span

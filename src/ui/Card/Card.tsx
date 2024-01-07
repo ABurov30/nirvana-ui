@@ -7,13 +7,13 @@ import style from './Card.module.scss'
 export default function Card({ srcImg, title, subTitle, onClick }: ICardProps) {
 	return (
 		<div className={style.card} onClick={onClick}>
-			<img alt={title} src={srcImg} loading="lazy" decoding="sync" />
+			<img alt={title} src={srcImg} loading="lazy" decoding="async" />
 			{title ? (
 				<Typography
 					text={
 						title.length > 20 ? `${title.slice(0, 20)}...` : title
 					}
-					fontSize="16"
+					fontSize="1em"
 					weight="semibold"
 				/>
 			) : null}
@@ -24,7 +24,7 @@ export default function Card({ srcImg, title, subTitle, onClick }: ICardProps) {
 							? `${subTitle.slice(0, 10)}...`
 							: subTitle
 					}
-					fontSize="14"
+					fontSize="0.8em"
 					weight="regular"
 				/>
 			) : null}

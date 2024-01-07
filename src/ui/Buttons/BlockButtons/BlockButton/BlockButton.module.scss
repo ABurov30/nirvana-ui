@@ -6,7 +6,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px 32px;
+	padding: 0.7em 2em;
 	gap: 10px;
 	width: fit-content;
 	border: none;
@@ -15,8 +15,8 @@
 }
 
 .IconContainer {
-	width: 35px;
-	height: 35px;
+	width: 2em;
+	height: 2em;
 }
 
 .BlockButton:hover {
@@ -27,3 +27,5 @@
 		0 0 50px $primary-violet;
 	opacity: 1;
 }
+
+
