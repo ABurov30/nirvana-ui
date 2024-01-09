@@ -23,15 +23,13 @@ export default function Typography({
 		}
 	})()
 
-	const size = fontSize
-
 	return (
 		<span
 			className={style.typography}
 			style={{
 				fontWeight,
 				textAlign: textAlign,
-				fontSize: size,
+				fontSize: fontSize,
 				color
 			}}
 		>
