@@ -1,6 +1,6 @@
 {
-	"name": "radio-app-uikit",
-	"version": "1.0.47",
+	"name": "nirvana-uikit",
+	"version": "1.0.0",
 	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
