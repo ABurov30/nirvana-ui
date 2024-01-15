@@ -4,17 +4,11 @@ const JsonMinimizerPlugin = require('json-minimizer-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
-const { DefinePlugin} = require('webpack')
+const { DefinePlugin } = require('webpack')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const dotenv = require('dotenv')
-
-dotenv.config()
-
-const mode = process.env.NODE_ENV
-const isDev = mode === 'development'
 
 module.exports = {
-	mode: mode,
+	mode: 'production',
 	entry: './src/index.ts',
 	output: {
 		filename: 'index.js',
@@ -86,7 +80,7 @@ module.exports = {
 		]
 	},
 	optimization: {
-		minimize: !isDev,
+		minimize: true,
 		minimizer: [
 			new CssMinimizerPlugin(),
 			new JsonMinimizerPlugin(),
@@ -137,16 +131,13 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new DefinePlugin({
-			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-		}),
 		new MiniCssExtractPlugin({
-			filename: isDev ? '[name].css' : '[name].[contenthash].css',
-			chunkFilename: isDev ? '[id].css' : '[id].[contenthash].css'
+			filename: '[name].[contenthash].css',
+			chunkFilename: '[id].[contenthash].css'
 		}),
 		new CleanWebpackPlugin()
 	],
 	stats: {
-		errorDetails: isDev
+		errorDetails: false
 	}
 }
