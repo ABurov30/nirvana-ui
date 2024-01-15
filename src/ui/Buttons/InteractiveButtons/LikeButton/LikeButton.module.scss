@@ -1,7 +1,6 @@
 @import '../../../../constants/colors.scss';
 
 .heartContainer {
-	--heart-color: $primary-violet;
 	position: relative;
 	width: 25px;
 	height: 25px;
@@ -26,7 +25,7 @@
 
 		.svgOutline,
 		.svgFilled {
-			fill: var(--heart-color);
+			fill: $primary-violet;
 			position: absolute;
 		}
 
@@ -40,8 +39,8 @@
 			animation: svgCelebrate 0.5s;
 			animation-fill-mode: forwards;
 			display: none;
-			stroke: var(--heart-color);
-			fill: var(--heart-color);
+			stroke: $primary-violet;
+			fill: $primary-violet;
 			stroke-width: 2px;
 		}
 	}
