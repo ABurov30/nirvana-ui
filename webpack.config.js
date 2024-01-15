@@ -44,7 +44,7 @@ module.exports = {
 				test: /\.s(a|c)ss$/i,
 				exclude: /node_modules/,
 				use: [
-					MiniCssExtractPlugin.loader,
+					isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
 					{
 						loader: 'css-loader',
 						options: {
@@ -80,7 +80,6 @@ module.exports = {
 		]
 	},
 	optimization: {
-		minimize: true,
 		minimizer: [
 			new CssMinimizerPlugin(),
 			new JsonMinimizerPlugin(),
@@ -131,6 +130,9 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new DefinePlugin({
+			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+		}),
 		new MiniCssExtractPlugin({
 			filename: '[name].[contenthash].css',
 			chunkFilename: '[id].[contenthash].css'
