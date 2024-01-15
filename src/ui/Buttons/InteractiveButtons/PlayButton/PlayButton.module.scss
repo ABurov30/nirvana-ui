@@ -1,0 +1,60 @@
+@import '../../../../constants/colors.scss';
+
+.container {
+	--size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+	font-size: var(--size);
+	user-select: none;
+	fill: $primary-grey;
+	background-color: transparent;
+	border: none;
+}
+
+.container:hover {
+	fill: $primary-violet;
+}
+
+.container .play {
+	position: absolute;
+	animation: keyframes-fill 0.5s;
+}
+
+.container .pause {
+	position: absolute;
+	display: none;
+	animation: keyframes-fill 0.5s;
+}
+
+/* ------ On check event ------ */
+.container input:checked ~ .play {
+	display: none;
+}
+
+.container input:checked ~ .pause {
+	display: block;
+}
+
+/* ------ Hide the default checkbox ------ */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+	0% {
+		transform: rotate(-180deg) scale(0);
+		opacity: 0;
+	}
+
+	50% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}

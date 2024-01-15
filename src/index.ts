@@ -22,7 +22,8 @@ import PlayRoundButton from './ui/Buttons/RoundButtons/presets/PlayRoundButton/P
 import ReminderRoundButton from './ui/Buttons/RoundButtons/presets/ReminderRoundButton/ReminderRoundButton'
 import RepeatRoundButton from './ui/Buttons/RoundButtons/presets/RepeatRoundButton/RepeatRoundButton'
 import RightArrowRoundButton from './ui/Buttons/RoundButtons/presets/RightArrowRoundButton/RightArrowRoundButton'
-import VolumeButton from './ui/Buttons/InteractiveButtons/VolumeButton/VolumeButton'
+import PlayButton from './ui/Buttons/InteractiveButtons/PlayButton/PlayButton'
+import LikeButton from './ui/Buttons/InteractiveButtons/LikeButton/LikeButton'
 import DownArrow from './ui/Icons/DownArrow'
 import LeftArrow from './ui/Icons/LeftArrow'
 import Home from './ui/Icons/Home'
@@ -62,7 +63,8 @@ export {
 	RepeatRoundButton,
 	RightArrowRoundButton,
 	ShareRoundButton,
-	VolumeButton,
+	PlayButton,
+	LikeButton,
 	Card,
 	DownArrow,
 	Home,
