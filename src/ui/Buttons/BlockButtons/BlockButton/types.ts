@@ -1,8 +1,7 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react'
 
-type ButtonProps = Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'form'>
 
-export interface IBlockButtonProps extends ButtonProps {
+export interface IBlockButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 	text: string
 	icon?: ReactNode
 	onClick?: () => void
