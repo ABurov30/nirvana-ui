@@ -1,9 +1,12 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react'
 
-
-export interface IBlockButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface IBlockButtonProps
+	extends Pick<
+		ButtonHTMLAttributes<HTMLButtonElement>,
+		Exclude<keyof ButtonHTMLAttributes<HTMLButtonElement>, 'type'>
+	> {
 	text: string
-	type?: 'submit' | 'reset' | 'button' | undefined
+	type: string
 	icon?: ReactNode
 	onClick?: () => void
 }
