@@ -6,7 +6,7 @@ export interface IBlockButtonProps
 		Exclude<keyof ButtonHTMLAttributes<HTMLButtonElement>, 'type'>
 	> {
 	text: string
-	type?: never
+	type: never
 	icon?: ReactNode
 	onClick?: () => void
 }
