@@ -1,5 +1,5 @@
 import React from 'react'
-import Like from '../../../../Icons/presets/Like'
+import Like from '../../../../Icons/Like'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Repeat from '../../../../Icons/presets/Repeat'
+import Repeat from '../../../../Icons/Repeat'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

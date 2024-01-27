@@ -1,5 +1,5 @@
 import React from 'react'
-import Mix from '../../../../Icons/presets/Mix'
+import Mix from '../../../../Icons/Mix'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

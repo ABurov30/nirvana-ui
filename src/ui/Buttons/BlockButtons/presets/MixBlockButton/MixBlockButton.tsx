@@ -1,5 +1,5 @@
 import React from 'react'
-import Mix from '../../../../Icons/presets/Mix'
+import Mix from '../../../../Icons/Mix'
 import BlockButton from '../../BlockButton/BlockButton'
 import { MixBlokButtonProps } from './types'
 

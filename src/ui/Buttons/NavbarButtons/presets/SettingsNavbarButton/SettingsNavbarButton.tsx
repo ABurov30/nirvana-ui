@@ -1,5 +1,5 @@
 import React from 'react'
-import Setting from '../../../../Icons/presets/Setting'
+import Setting from '../../../../Icons/Setting'
 import NavbarButton from '../../NavbarButton/NavbarButton'
 import { NavbarButtonPresetsProps } from '../types'
 

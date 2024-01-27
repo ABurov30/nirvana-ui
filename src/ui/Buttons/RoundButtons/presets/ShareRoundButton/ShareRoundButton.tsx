@@ -1,5 +1,5 @@
 import React from 'react'
-import Share from '../../../../Icons/presets/Share'
+import Share from '../../../../Icons/Share'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

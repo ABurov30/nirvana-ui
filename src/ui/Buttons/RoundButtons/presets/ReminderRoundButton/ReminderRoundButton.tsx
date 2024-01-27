@@ -1,5 +1,5 @@
 import React from 'react'
-import Reminder from '../../../../Icons/presets/Reminder'
+import Reminder from '../../../../Icons/Reminder'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Radio from '../../../../Icons/presets/Radio'
+import Radio from '../../../../Icons/Radio'
 import NavbarButton from '../../NavbarButton/NavbarButton'
 import { NavbarButtonPresetsProps } from '../types'
 

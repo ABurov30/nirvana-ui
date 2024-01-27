@@ -1,5 +1,5 @@
 import React from 'react'
-import Play from '../../../../Icons/presets/Play'
+import Play from '../../../../Icons/Play'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 

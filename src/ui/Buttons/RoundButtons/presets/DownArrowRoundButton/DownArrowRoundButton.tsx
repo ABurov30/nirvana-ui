@@ -1,5 +1,5 @@
 import React from 'react'
-import DownArrow from '../../../../Icons/presets/DownArrow'
+import DownArrow from '../../../../Icons/DownArrow'
 import RoundButton from '../../RoundButton/RoundButton'
 import { RoundButtonPresetsProps } from '../types'
 
