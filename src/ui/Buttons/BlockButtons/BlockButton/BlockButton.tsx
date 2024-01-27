@@ -1,6 +1,5 @@
 import React from 'react'
 import Typography from '../../../Typography/Typography'
-//@ts-ignore
 import styles from './BlockButton.module.scss'
 import { IBlockButtonProps } from './types'
 

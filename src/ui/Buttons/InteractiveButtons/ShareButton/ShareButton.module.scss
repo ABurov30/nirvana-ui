@@ -1,0 +1,87 @@
+@import '../../../constants/colors.scss';
+
+.shareButtonContainer {
+	margin: 0 5px;
+}
+
+.buttons {
+	position: relative;
+	display: grid;
+	place-items: center;
+	height: fit-content;
+	width: fit-content;
+	transition: 0.3s;
+	border-radius: 50%;
+
+	&:hover {
+		padding: 60px;
+	}
+}
+
+.mainButton {
+	position: relative;
+	display: grid;
+	place-items: center;
+	padding: 5px;
+	border: none;
+	background: transparent;
+	border-radius: 50%;
+	transition: 0.2s;
+	z-index: 100;
+}
+
+.button {
+	position: absolute;
+	display: grid;
+	place-items: center;
+	padding: 5px;
+	border: none;
+	background: transparent;
+	transition: 0.3s;
+	border-radius: 50%;
+	visibility: hidden;
+}
+
+.buttons:hover .button {
+	visibility: visible;
+}
+
+.vkButton:hover svg {
+	fill: #0093ff;
+}
+
+.buttons:hover .vkButton {
+	translate: 50px 0px;
+}
+
+.twitterButton:hover svg {
+	fill: #0093ff;
+}
+
+.buttons:hover .twitterButton {
+	translate: 37px -37px;
+}
+
+.facebookButton:hover svg {
+	fill: #0093ff;
+}
+
+.buttons:hover .facebookButton {
+	translate: 0px -50px;
+}
+
+.telegramButton:hover svg {
+	fill: #0093ff;
+}
+
+.buttons:hover .telegramButton {
+	translate: -37px -37px;
+}
+
+.whatsappButton:hover svg {
+	fill: #25d366;
+}
+
+.buttons:hover .whatsappButton {
+	translate: -50px 0px;
+}

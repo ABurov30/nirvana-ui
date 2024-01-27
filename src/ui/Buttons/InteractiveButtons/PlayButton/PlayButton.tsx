@@ -1,7 +1,6 @@
-//@ts-ignore
+import React from 'react'
 import styles from './PlayButton.module.scss'
 import { PlayButtonProps } from './types'
-import React from 'react'
 
 export default function PlayButton({ isPlaying, onClick }: PlayButtonProps) {
 	return (
