@@ -1,6 +1,6 @@
 import React from 'react'
+import Setting from '../../../../Icons/presets/Setting'
 import NavbarButton from '../../NavbarButton/NavbarButton'
-import Setting from '../../../../Icons/Setting'
 import { NavbarButtonPresetsProps } from '../types'
 
 export default function SettingsNavbarButton(props: NavbarButtonPresetsProps) {

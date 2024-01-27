@@ -1,5 +1,5 @@
 import React from 'react'
-import Play from '../../../../Icons/Play'
+import Play from '../../../../Icons/presets/Play'
 import BlockButton from '../../BlockButton/BlockButton'
 import { PlayBlokButtonProps } from './types'
 

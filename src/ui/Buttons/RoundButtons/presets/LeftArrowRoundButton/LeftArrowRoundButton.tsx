@@ -1,6 +1,6 @@
 import React from 'react'
+import LeftArrow from '../../../../Icons/presets/LeftArrow'
 import RoundButton from '../../RoundButton/RoundButton'
-import LeftArrow from '../../../../Icons/LeftArrow'
 import { RoundButtonPresetsProps } from '../types'
 
 export default function LeftArrowRoundButton({

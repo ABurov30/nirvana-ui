@@ -1,6 +1,6 @@
 import React from 'react'
+import Like from '../../../../Icons/presets/Like'
 import RoundButton from '../../RoundButton/RoundButton'
-import Like from '../../../../Icons/Like'
 import { RoundButtonPresetsProps } from '../types'
 
 export default function LikeRoundButton({

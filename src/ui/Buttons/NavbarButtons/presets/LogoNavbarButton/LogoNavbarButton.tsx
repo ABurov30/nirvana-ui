@@ -1,6 +1,6 @@
 import React from 'react'
+import Logo from '../../../../Icons/presets/Logo'
 import NavbarButton from '../../NavbarButton/NavbarButton'
-import Logo from '../../../../Icons/Logo'
 import { NavbarButtonPresetsProps } from '../types'
 
 function LogoNavbarButton(props: NavbarButtonPresetsProps) {

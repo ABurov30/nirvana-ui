@@ -1,6 +1,6 @@
 import React from 'react'
+import Mix from '../../../../Icons/presets/Mix'
 import BlockButton from '../../BlockButton/BlockButton'
-import Mix from '../../../../Icons/Mix'
 import { MixBlokButtonProps } from './types'
 
 export default function MixBlockButton({ onClick }: MixBlokButtonProps) {

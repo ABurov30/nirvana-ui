@@ -1,9 +1,12 @@
 import React from 'react'
+import Play from '../../../../Icons/presets/Play'
 import RoundButton from '../../RoundButton/RoundButton'
-import Play from '../../../../Icons/Play'
 import { RoundButtonPresetsProps } from '../types'
 
-export default function PlayRoundButton({ onClick, size }: RoundButtonPresetsProps) {
+export default function PlayRoundButton({
+	onClick,
+	size
+}: RoundButtonPresetsProps) {
 	return (
 		<RoundButton
 			icon={Play}

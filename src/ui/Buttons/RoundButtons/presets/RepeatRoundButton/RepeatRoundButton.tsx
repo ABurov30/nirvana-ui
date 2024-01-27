@@ -1,6 +1,6 @@
 import React from 'react'
+import Repeat from '../../../../Icons/presets/Repeat'
 import RoundButton from '../../RoundButton/RoundButton'
-import Repeat from '../../../../Icons/Repeat'
 import { RoundButtonPresetsProps } from '../types'
 
 export default function RepeatRoundButton({

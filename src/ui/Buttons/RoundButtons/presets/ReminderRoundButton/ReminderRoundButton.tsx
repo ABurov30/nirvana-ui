@@ -1,9 +1,12 @@
 import React from 'react'
+import Reminder from '../../../../Icons/presets/Reminder'
 import RoundButton from '../../RoundButton/RoundButton'
-import Reminder from '../../../../Icons/Reminder'
 import { RoundButtonPresetsProps } from '../types'
 
-export default function ReminderRoundButton({ onClick, size }: RoundButtonPresetsProps) {
+export default function ReminderRoundButton({
+	onClick,
+	size
+}: RoundButtonPresetsProps) {
 	return (
 		<RoundButton
 			icon={Reminder}
