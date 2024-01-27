@@ -1,0 +1,96 @@
+@import '../../constants/colors.scss';
+
+
+
+
+.container {
+	font-weight: 600;
+	overflow: hidden;
+	height: 40px;
+	padding: 0 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	line-height: 40px;
+	color: $primary-white;
+}
+
+.contentContainerText {
+	display: inline;
+	float: left;
+	margin: 0;
+}
+
+.contentContainerList {
+	margin-top: 0;
+	padding-left: 145px;
+	text-align: left;
+	list-style: none;
+	animation-name: change;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.contentContainerListItem {
+	line-height: 40px;
+	margin: 0;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes change {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	13% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	17% {
+		transform: translate3d(0, -25%, 0);
+	}
+	29% {
+		transform: translate3d(0, -25%, 0);
+	}
+
+	33% {
+		transform: translate3d(0, -50%, 0);
+	}
+	46% {
+		transform: translate3d(0, -50%, 0);
+	}
+
+	50% {
+		transform: translate3d(0, -75%, 0);
+	}
+	62% {
+		transform: translate3d(0, -75%, 0);
+	}
+
+	67% {
+		transform: translate3d(0, -50%, 0);
+	}
+	79% {
+		transform: translate3d(0, -50%, 0);
+	}
+
+	83% {
+		transform: translate3d(0, -25%, 0);
+	}
+	96% {
+		transform: translate3d(0, -25%, 0);
+	}
+}

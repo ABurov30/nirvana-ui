@@ -37,6 +37,7 @@ import Volume from './ui/Icons/Volume'
 import Loader from './ui/Loader/Loader'
 import NavSection from './ui/NavSection/NavSection'
 import Navbar from './ui/Navbar/Navbar'
+import PromoTitle from './ui/PromoTitle/PromoTitle'
 import Typography from './ui/Typography/Typography'
 
 export {
@@ -64,6 +65,7 @@ export {
 	PlayBlockButton,
 	PlayButton,
 	PlayRoundButton,
+	PromoTitle,
 	RadioNavbarButton,
 	Reminder,
 	ReminderRoundButton,

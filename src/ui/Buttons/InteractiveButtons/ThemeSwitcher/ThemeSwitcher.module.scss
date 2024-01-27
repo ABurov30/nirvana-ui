@@ -1,0 +1,65 @@
+$width-of-switch: 3.5em;
+$height-of-switch: 2em;
+$size-of-icon: 1.4em;
+$slider-offset: 0.3em;
+
+.switch {
+	display: block;
+	position: relative;
+	width: $width-of-switch;
+	height: $height-of-switch;
+
+	--width-of-switch: #{$width-of-switch};
+	--height-of-switch: #{$height-of-switch};
+	--size-of-icon: #{$size-of-icon};
+	--slider-offset: #{$slider-offset};
+}
+
+.input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #f3f3f3;
+	transition: 0.4s;
+	border-radius: 30px;
+
+	&::before {
+		position: absolute;
+		content: '';
+		height: $size-of-icon;
+		width: $size-of-icon;
+		border-radius: 20px;
+		left: $slider-offset;
+		top: 50%;
+		transform: translateY(-50%);
+		background: linear-gradient(40deg, #bb0310, #b19ff9 70%);
+		transition: 0.4s;
+
+		--size-of-icon: #{$size-of-icon};
+		--slider-offset: #{$slider-offset};
+	}
+}
+
+.input:checked + .slider {
+	background-color: #2a2630;
+
+	&::before {
+		left: calc(100% - (#{$size-of-icon} + #{$slider-offset}));
+		background: #2a2630;
+
+		box-shadow:
+			inset -3px -2px 5px -2px #6360ff,
+			inset -10px -4px 0 0 #5ee9bf;
+
+		--size-of-icon: #{$size-of-icon};
+		--slider-offset: #{$slider-offset};
+	}
+}
