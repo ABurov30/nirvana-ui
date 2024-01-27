@@ -4,6 +4,7 @@ import PlayBlockButton from './ui/Buttons/BlockButtons/presets/PlayBlockButton/P
 import LikeButton from './ui/Buttons/InteractiveButtons/LikeButton/LikeButton'
 import PlayButton from './ui/Buttons/InteractiveButtons/PlayButton/PlayButton'
 import ShareButton from './ui/Buttons/InteractiveButtons/ShareButton/ShareButton'
+import ThemeSwitcher from './ui/Buttons/InteractiveButtons/ThemeSwitcher/ThemeSwitcher'
 import AccountNavbarButton from './ui/Buttons/NavbarButtons/presets/AccountNavbarButton/AccountNavbarButton'
 import FavoritesNavbarButton from './ui/Buttons/NavbarButtons/presets/FavoritesNavbarButton/FavoritesNavbarButton'
 import HomeNavbarButton from './ui/Buttons/NavbarButtons/presets/HomeNavbarButton/HomeNavbarButton'
@@ -78,6 +79,7 @@ export {
 	Share,
 	ShareButton,
 	ShareRoundButton,
+	ThemeSwitcher,
 	TrackNavbarButton,
 	Typography,
 	User,
