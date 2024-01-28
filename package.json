@@ -5,7 +5,7 @@
 	"main": "./dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "webpack",
+		"build": "webpack",
 		"build:img": "copyfiles -f public/icons/*.* dist/static/icons/",
 		"local": "npm run build:img && webpack && npm version patch",
 		"pb": "npm run build:img && webpack && npm version patch && npm publish",
