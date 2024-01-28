@@ -1,5 +1,4 @@
-
-# Nirvana UI kit
+# Aura UI kit
 
 UI kit for music streaming app by Andrey Burov
 
