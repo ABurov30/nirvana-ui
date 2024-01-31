@@ -19,5 +19,3 @@ jobs:
               run: npm install --global prettier
             - name: formatting code
               run: prettier . -w
-            - name: publish
-              run: npm run pb
