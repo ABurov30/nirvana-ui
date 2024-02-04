@@ -72,13 +72,13 @@
 	filter: blur(320px);
 }
 
-.loader:after {
+#loader:after {
 	content: '';
 	position: absolute;
 	top: 10px;
 	left: 10px;
 	right: 10px;
 	bottom: 10px;
-	background: transparent;
+	background: $primary-white;
 	border-radius: 50%;
 }
