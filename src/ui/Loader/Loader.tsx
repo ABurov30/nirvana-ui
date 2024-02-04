@@ -6,6 +6,7 @@ export default function Loader(): JSX.Element {
 	return (
 		<div className={styles.loaderContainer}>
 			<div className={styles.loader}>
+				<div id={'innerCircle'}></div>
 				<span></span>
 				<span></span>
 				<span></span>

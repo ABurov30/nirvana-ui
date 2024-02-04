@@ -20,6 +20,9 @@
 		$primary-violet,
 		$primary-pink
 	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	animation: animate 0.5s linear infinite;
 }
 
@@ -72,23 +75,10 @@
 	filter: blur(320px);
 }
 
-.loader {
-	&:after {
-		content: '';
-		position: absolute;
-		top: 10px;
-		left: 10px;
-		right: 10px;
-		bottom: 10px;
-		border-radius: 50%;
-		background-color: $primary-white;
-
-		body.light & {
-			background-color: $primary-white;
-		}
-
-		body.dark & {
-			background: $primary-black;
-		}
-	}
+#innerCircle {
+	width: 80%;
+	height: 80%;
+	z-index: 1;
+	border-radius: 50%;
+	background-color: $primary-white;
 }
