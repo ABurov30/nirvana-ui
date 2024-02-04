@@ -83,6 +83,10 @@
 		border-radius: 50%;
 		background-color: $primary-white;
 
+		body.light & {
+			background-color: $primary-white;
+		}
+
 		body.dark & {
 			background: $primary-black;
 		}
